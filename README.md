@@ -49,11 +49,11 @@ ERD Transaksi sederhana antar bank
 
 # Hubungan ENTITAS
 ## ENTITAS NASABAH BANK MEMILIKI REKENING BANK
-Entitas Nasabah Bank memiliki entitas Rekening Bank dengan relasi one to many dari entitas Nasabah Bank menuju Rekening Bank, sehingga primary key dari entitas Nasabah Bank akan tersemayam sebagai foreign key di entitas Rekening Bank.
+Entitas Nasabah Bank memiliki entitas Rekening Bank dengan relasi one to many dari entitas Nasabah Bank menuju Rekening Bank, sehingga primary key dari entitas Nasabah Bank akan tersemayam sebagai foreign key di entitas Rekening Bank. primary key dari PERUSAHAAN BANK akan tersemayam di dalam entitas.
 
 ## ENTITAS PERUSAHAAN BANK MENGELOLA ENTITAS REKENING BANK
 Entitas Perusahaan Bank mengelola entitas Rekening Bank dengan relasi one to many dari entitas Perusahaan Bank menuju Rekening Bank, sehingga primary key dari entitas Perusahaan Bank akan tersemayam sebagai foreign key di entitas Rekening Bank.
 
 ## ENTITAS NASABAH BANK TRANSAKSI DENGAN ENTITAS PERUSAHAAN BANK
-Entitas Nasabah Bank melakukan transaksi dengan entitas Perusahaan Bank dengan relasi many to many, sehingga akan terbuat table khusus yang akan memuat primary key dengan nama id_transaksi, foreign key id_nasabah dan id_bank yang melaksanakan transaksi, id_nasabah_tujuan yang merupakan id rekening dari bank yang ingin ditransfer yang merupakan sebuah foreign key di dalam tabel Transaksi, id_bank_tujuan yang merupakan id bank dari bank yang ingin ditransfer dan merupakan sebuah foreign key di dalam tabel Transaksi, tanggal terjadinya transaksi, jenis transaksi, jumlah transaksi yang dilakukan, dan keterangan tambahan pada saat proses transaksi.
+Entitas Nasabah Bank melakukan transaksi dengan entitas Perusahaan Bank dengan relasi many to many, sehingga salah satu antara entitas Nasabah Bank dan entitas Perusahaan Bank wajib memiliki primary key dari salah satu entitas yang akan menjadi foreign key di dalam entitas tersebut. Dan karena terjadi hubungan many to many, akan mengakibatkan terbuatnya table khusus yang akan memuat primary key dengan nama id_transaksi, foreign key id_nasabah dan id_bank yang melaksanakan transaksi, id_nasabah_tujuan yang merupakan id rekening dari bank yang ingin ditransfer yang merupakan sebuah foreign key di dalam tabel Transaksi, id_bank_tujuan yang merupakan id bank dari bank yang ingin ditransfer dan merupakan sebuah foreign key di dalam tabel Transaksi, tanggal terjadinya transaksi, jenis transaksi, jumlah transaksi yang dilakukan, dan keterangan tambahan pada saat proses transaksi.
 
