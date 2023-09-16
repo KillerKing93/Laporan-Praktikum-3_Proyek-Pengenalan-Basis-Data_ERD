@@ -1,6 +1,8 @@
 # Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD
 ERD Transaksi sederhana antar bank
 
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !] ()
+
 # Tabel ERD masing - masing entitas.
 ## ENTITAS NASABAH BANK
 | Name Field | Type | Length | Keterangan |
