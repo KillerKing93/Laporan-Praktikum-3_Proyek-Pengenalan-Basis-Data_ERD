@@ -48,6 +48,7 @@ ERD Transaksi sederhana antar bank
 | keterangan | varchar | 25 | |
 <br />
 <br /> 
+
 # IMPLEMENTASI TABEL KE DALAM KOLOM MYSQL
 ## IMPLEMENTASI TABEL PERUSAHAAN BANK
 Kita buat kolom sesuai dengan yang dispesifikan oleh tabel perusahaan bank
