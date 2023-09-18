@@ -2,8 +2,8 @@
 ERD Transaksi sederhana antar bank
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/ERD%20Bank%20v2.drawio.png)
- 
- 
+<br />
+<br />
 # Tabel ERD masing - masing entitas.
 ## TABLE ENTITAS NASABAH BANK
 | Name Field | Type | Length | Keterangan |
@@ -46,8 +46,8 @@ ERD Transaksi sederhana antar bank
 | jenis_transaksi | enum | | ('Pembayaran', 'Transfer')
 | jumlah_transaksi | decimal | 19,4 | |
 | keterangan | varchar | 25 | |
- 
- 
+<br />
+<br /> 
 # IMPLEMENTASI TABEL KE DALAM KOLOM MYSQL
 ## IMPLEMENTASI TABEL PERUSAHAAN BANK
 Kita buat kolom sesuai dengan yang dispesifikan oleh tabel perusahaan bank
