@@ -48,50 +48,64 @@ ERD Transaksi sederhana antar bank
 
 # IMPLEMENTASI TABEL KE DALAM KOLOM MYSQL
 ## IMPLEMENTASI TABEL PERUSAHAAN BANK
-_ Kita buat kolom sesuai dengan yang dispesifikan oleh tabel perusahaan bank
+Kita buat kolom sesuai dengan yang dispesifikan oleh tabel perusahaan bank
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/1-Perusahaan-Bank_Creating.png)
 
-_ Kemudian, Kita dapat melihat hasilnya di opsi bernama struktur
+Kemudian, Kita dapat melihat hasilnya di opsi bernama struktur
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/1-Perusahaan-Bank_Table.png)
 
 ## IMPLEMENTASI TABEL NASABAH BANK
-_ Pertama, kita buat kolom sesuai dengan yang dispesifikan oleh tabel nasabah bank.
+Pertama, kita buat kolom sesuai dengan yang dispesifikan oleh tabel nasabah bank.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/2-Nasabah-Bank_Creating.png)
 
-_ Lalu di menu Struktur (Structure) tabel, kita buka menu tampilkan hubungan (Show Relation), dan kita modifikasi serta hubungkan foreign key yang dispesifikasikan oleh tabel nasabah bank.
+Lalu di menu Struktur (Structure) tabel, kita buka menu tampilkan hubungan (Show Relation), dan kita modifikasi serta hubungkan foreign key yang dispesifikasikan oleh tabel nasabah bank.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/2-Nasabah-Bank_ForeignKey.png)
 
-_ Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar, tampilan ini akan muncul.
+Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar, tampilan ini akan muncul.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/2-Nasabah-Bank-ForeignKey_Successfull.png)
 
-_ Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
+Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/2-Nasabah-Bank_Table.png)
 
 
 ## IMPLEMENTASI TABEL REKENING BANK
-_ Pertama, kita buat kolom sesuai dengan yang dispesifikan oleh tabel nasabah bank.
+Pertama, kita buat kolom sesuai dengan yang dispesifikan oleh tabel nasabah bank.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/3-Rekening-Bank_Creating.png)
 
-_ Lalu di menu Struktur (Structure) tabel, kita buka menu tampilkan hubungan (Show Relation), dan kita modifikasi serta hubungkan foreign key yang dispesifikasikan oleh tabel nasabah bank.
+Lalu di menu Struktur (Structure) tabel, kita buka menu tampilkan hubungan (Show Relation), dan kita modifikasi serta hubungkan foreign key yang dispesifikasikan oleh tabel nasabah bank.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/3-Rekening-Bank_ForeignKey.png)
 
-_ Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar, tampilan ini akan muncul.
+Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar, tampilan ini akan muncul.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/3-Rekening-Bank_ForeignKey_Successfull.png)
 
-_ Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
+Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/3-Rekening-Bank_Table.png)
 
 ## IMPLEMENTASI TABEL TRANSAKSI
-_ Pertama, kita buat kolom sesuai dengan yang dispesifikan oleh tabel nasabah bank.
+Pertama, kita buat kolom sesuai dengan yang dispesifikan oleh tabel nasabah bank.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/4-Transaksi_Creating.png)
 
-_ Lalu di menu Struktur (Structure) tabel, kita buka menu tampilkan hubungan (Show Relation), dan kita modifikasi serta hubungkan foreign key yang dispesifikasikan oleh tabel nasabah bank.
+Lalu di menu Struktur (Structure) tabel, kita buka menu tampilkan hubungan (Show Relation), dan kita modifikasi serta hubungkan foreign key yang dispesifikasikan oleh tabel nasabah bank.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/4-Transaksi_ForeignKey.png)
 
-_ Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar, tampilan ini akan muncul.
+Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar, tampilan ini akan muncul.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/4-Transaksi_ForeignKey_Successfull.png)
 
-_ Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
+Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
+
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/4-Transaksi_Table.png)
 
 # Hubungan ENTITAS
