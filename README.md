@@ -24,7 +24,7 @@ ERD Transaksi sederhana antar bank
 | id_rekening | int | 255 | Primary Key |
 | id_nasabah | int | 255 | Foreign Key |
 | id_bank | int | 255 | Foreign Key |
-| saldo | decimal | 4 | |
+| saldo | decimal | 19,4 | |
 | jenis_member | enum | | ('silver', 'gold', 'platinum')
 
 ## TABLE ENTITAS PERUSAHAAN BANK
@@ -43,7 +43,7 @@ ERD Transaksi sederhana antar bank
 | id_bank_tujuan | int | 255 | Foreign Key |
 | tanggal_transaksi | datetime | | |
 | jenis_transaksi | enum | | ('Pembayaran', 'Transfer')
-| jumlah_transaksi | decimal | 4 | |
+| jumlah_transaksi | decimal | 19,4 | |
 | Keterangan | varchar | 25 | |
 
 # Hubungan ENTITAS
