@@ -34,7 +34,7 @@ ERD Transaksi sederhana antar bank
 | alamat_bank | varchar | 60 | |
 | nama_pemilik | varchar | 55 | |
 
-## TABLE RELASI ANTARA NASABAH BANK DAN PERUSAHAAN BANK
+## TABLE TRANSAKSI NASABAH BANK DAN PERUSAHAAN BANK
 | Name Field | Type | Length | Keterangan |
 | --- | --- | --- | --- |
 | id_transaksi | int | 255 | Primary Key |
