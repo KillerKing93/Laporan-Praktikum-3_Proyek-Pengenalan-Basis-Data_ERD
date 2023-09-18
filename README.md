@@ -44,7 +44,7 @@ ERD Transaksi sederhana antar bank
 | tanggal_transaksi | datetime | | |
 | jenis_transaksi | enum | | ('Pembayaran', 'Transfer')
 | jumlah_transaksi | decimal | 19,4 | |
-| Keterangan | varchar | 25 | |
+| keterangan | varchar | 25 | |
 
 # Hubungan ENTITAS
 ## ENTITAS NASABAH BANK MEMILIKI REKENING BANK
