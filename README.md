@@ -2,8 +2,8 @@
 ERD Transaksi sederhana antar bank
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/ERD%20Bank%20v2.drawio.png)
-
-
+ 
+ 
 # Tabel ERD masing - masing entitas.
 ## TABLE ENTITAS NASABAH BANK
 | Name Field | Type | Length | Keterangan |
@@ -46,8 +46,8 @@ ERD Transaksi sederhana antar bank
 | jenis_transaksi | enum | | ('Pembayaran', 'Transfer')
 | jumlah_transaksi | decimal | 19,4 | |
 | keterangan | varchar | 25 | |
-
-
+ 
+ 
 # IMPLEMENTASI TABEL KE DALAM KOLOM MYSQL
 ## IMPLEMENTASI TABEL PERUSAHAAN BANK
 Kita buat kolom sesuai dengan yang dispesifikan oleh tabel perusahaan bank
@@ -109,9 +109,9 @@ Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar,
 Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/4-Transaksi_Table.png)
-
-
-
+ 
+ 
+ 
 # HUBUNGAN ANTAR ENTITAS
 ## ENTITAS NASABAH BANK MEMILIKI REKENING BANK
 Entitas Nasabah Bank memiliki entitas Rekening Bank dengan relasi one to many dari entitas Nasabah Bank menuju Rekening Bank, sehingga primary key dari entitas Nasabah Bank akan tersemayam sebagai foreign key di entitas Rekening Bank. primary key dari PERUSAHAAN BANK akan tersemayam di dalam entitas.
