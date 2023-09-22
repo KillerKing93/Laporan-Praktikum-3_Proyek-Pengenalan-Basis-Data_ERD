@@ -2,7 +2,7 @@
 <p align="center"> ERD Transaksi sederhana antar bank </p>
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/ERD%20Bank%20v2.drawio_v3.png) 
-<p align="center"> Gambar 1, ERD Transaksi sederhana antar bank </p>
+Gambar 1, ERD Transaksi sederhana antar bank
 <br />
 <br />
 
