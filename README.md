@@ -40,7 +40,7 @@ Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah di
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel2_Nasabah-Bank_Relasi.png)
 
-Dari gambar di atas, dapat dilihat bahwa 
+Dari gambar di atas, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank table perusahaan_bank dari basis data erd_transaksi_di_bank
 <br />
 <br />
 
