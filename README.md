@@ -111,21 +111,3 @@ Setelah modifikasi dan penghubungan foreign key berhasil dilakukan dengan benar,
 Kita dapat melihat hasil tabel yang telah kita selesaikan di menu struktur.
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/4-Transaksi_Table.png)
-<br />
-<br />
-
-# HUBUNGAN ANTAR ENTITAS
-## ENTITAS NASABAH BANK MEMILIKI REKENING BANK
-Entitas Nasabah Bank memiliki entitas Rekening Bank dengan relasi one to many dari entitas Nasabah Bank menuju Rekening Bank, sehingga primary key dari entitas Nasabah Bank akan tersemayam sebagai foreign key di entitas Rekening Bank. primary key dari PERUSAHAAN BANK akan tersemayam di dalam entitas.
-
-## ENTITAS PERUSAHAAN BANK MENGELOLA ENTITAS REKENING BANK
-Entitas Perusahaan Bank mengelola entitas Rekening Bank dengan relasi one to many dari entitas Perusahaan Bank menuju Rekening Bank, sehingga primary key dari entitas Perusahaan Bank akan tersemayam sebagai foreign key di entitas Rekening Bank.
-
-## ENTITAS NASABAH BANK TRANSAKSI DENGAN ENTITAS PERUSAHAAN BANK
-Entitas Nasabah Bank melakukan transaksi dengan entitas Perusahaan Bank dengan relasi many to many, sehingga salah satu antara entitas Nasabah Bank dan entitas Perusahaan Bank wajib memiliki primary key dari salah satu entitas yang akan menjadi foreign key di dalam entitas tersebut. Dan karena terjadi hubungan many to many, akan mengakibatkan terbuatnya table khusus yang akan memuat primary key dengan nama id_transaksi, foreign key id_nasabah yang melaksanakan transaksi, id_nasabah_tujuan dan id_bank yang ingin ditransfer yang merupakan sebuah foreign key di dalam tabel Transaksi, tanggal terjadinya transaksi, jenis transaksi, jumlah transaksi yang dilakukan, dan keterangan tambahan pada saat proses transaksi.
-
-# CARA KERJA DARI KESELURUHAN SISTEM
-1. Nasabah Bank dapat memiliki banyak rekening bank dari sebuah perusahaan bank dari rekening bank yang bersangkutan.
-2. Nasabah bank ini dapat melakukan transaksi seperti pembayaran, transfer, dan sebagainya dengan perusahaan bank lain yang nanti catatan seperti id_transaksi, id_nasabah yang melakukan transaksi, id_nasabah_tujuan dan id_bank_tujuan transaksi, dan keterangan akan disimpan oleh sistem pada tabel yang terpisah. Hal ini dikarenakan oleh hubungan relasi transaksi ini yang bersifat many to many. 
-3. Transaksi – transaksi ini nantinya akan diolah oleh perusahaan bank yang secara langsung mengelola rekening bank dari nasabah bank yang bersangkutan dan kemudian memproses transaksi tersebut.
-
