@@ -77,6 +77,23 @@ Dari gambar di atas, dapat dilihat bahwa Foreign key id_nasabah merupakan primar
 | alamat_bank | varchar | 60 | |
 | nama_pemilik | varchar | 55 | |
 
+## IMPLEMENTASI TABEL REKENING BANK
+
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank.png)
+
+Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah dibuat sebelumnya dengan keterangan kolom - kolom sebagai berikut :
+1. kolom id_rekening yang memiliki tipe data integer dengan panjang 255 yang merupakan sebuah primary key
+2. kolom id_nasabah yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_nasabah pada tabel ini dengan kolom id_nasabah yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel nasabah_bank
+3. kolom id_bank yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_bank pada tabel ini dengan kolom id_bank yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel perusahaan_bank
+4. kolom saldo merupakan sebuah kolom attribut yang memiliki tipe data decimal dengan panjang (19,4)
+5. kolom jenis_member merupakan sebuah kolom attribut yang memiliki tipe data enum serta memuat pilihan 'silver', 'gold', dan 'platinum'.
+
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank_Relasi.png)
+
+Dari gambar di atas, dapat dilihat bahwa Foreign key id_nasabah merupakan primary key yang berasal dari kolom id_nasabah table nasabah_bank dari basis data erd_transaksi_di_bank, lalu, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank table perusahaan_bank dari basis data erd_transaksi_di_bank
+<br />
+<br />
+
 ## TABLE TRANSAKSI NASABAH BANK DAN PERUSAHAAN BANK
 | Name Field | Type | Length | Keterangan |
 | --- | --- | --- | --- |
