@@ -1,10 +1,11 @@
 # <p align="center"> Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD </p>
 <p align="center"> ERD Transaksi sederhana antar bank </p>
 
-![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/ERD%20Bank%20v2.drawio_v3.png)
-Gambar 1
+<p align="center"> ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/ERD%20Bank%20v2.drawio_v3.png)
+Gambar 1, ERD Transaksi sederhana antar bank
 <br />
 <br />
+</p>
 # Tabel ERD masing - masing entitas.
 ## TABLE ENTITAS NASABAH BANK
 | Name Field | Type | Length | Keterangan |
