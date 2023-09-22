@@ -8,7 +8,7 @@ Gambar 1, ERD Transaksi sederhana antar bank
 <br />
 
 # Tabel ERD masing - masing entitas.
-## TABLE ENTITAS NASABAH BANK
+## TABEL ENTITAS NASABAH BANK
 | Name Field | Type | Length | Keterangan |
 | --- | --- | --- | --- |
 | id_nasabah | int | 255 | Primary Key |
@@ -25,10 +25,12 @@ Gambar 1, ERD Transaksi sederhana antar bank
 ## IMPLEMENTASI TABEL NASABAH BANK
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel2_Nasabah-Bank.png)
+<br />
+Gambar 2, Tabel Nasabah Bank yang di Implementasikan ke Dalam phpMyAdmin
 
 Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah dibuat sebelumnya dengan keterangan kolom - kolom sebagai berikut :
-1. kolom id_nasabah yang memiliki tipe data integer dengan panjang 255 yang merupakan sebuah primary key
-2. kolom id_bank yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_bank pada tabel ini dengan kolom id_bank yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel perusahaan_bank
+1. kolom id_nasabah yang memiliki tipe data integer dengan panjang 255 merupakan sebuah Primary Key
+2. kolom id_bank yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign Key yang menghubungkan kolom id_bank pada tabel ini dengan kolom id_bank yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel perusahaan_bank
 3. nik merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 16
 4. nama merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 55
 5. jenis_kelamin merupakan sebuah kolom attribut yang memiliki tipe data enum serta memuat pilihan 'Laki - Laki' dan 'Perempuan'
@@ -39,12 +41,14 @@ Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah di
 10. nama_ibu_dari_ibu merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 55
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel2_Nasabah-Bank_Relasi.png)
+<br />
+Gambar 3, Relasi Foreign Key di Dalam Tabel nasabah_bank dengan Tabel Lain
 
-Dari gambar di atas, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank table perusahaan_bank dari basis data erd_transaksi_di_bank
+Dari gambar di atas, dapat dilihat bahwa Foreign key id_bank merupakan Primary Key yang berasal dari kolom id_bank tabel perusahaan_bank dari basis data erd_transaksi_di_bank
 <br />
 <br />
 
-## TABLE ENTITAS REKENING BANK
+## TABEL ENTITAS REKENING BANK
 | Name Field | Type | Length | Keterangan |
 | --- | --- | --- | --- |
 | id_rekening | int | 255 | Primary Key |
@@ -56,6 +60,8 @@ Dari gambar di atas, dapat dilihat bahwa Foreign key id_bank merupakan primary k
 ## IMPLEMENTASI TABEL REKENING BANK
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank.png)
+<br />
+Gambar 4, Tabel Rekening Bank yang di Implementasikan ke Dalam phpMyAdmin
 
 Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah dibuat sebelumnya dengan keterangan kolom - kolom sebagai berikut :
 1. kolom id_rekening yang memiliki tipe data integer dengan panjang 255 yang merupakan sebuah primary key
@@ -65,12 +71,14 @@ Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah di
 5. kolom jenis_member merupakan sebuah kolom attribut yang memiliki tipe data enum serta memuat pilihan 'silver', 'gold', dan 'platinum'.
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank_Relasi.png)
+<br />
+Gambar 5, Relasi Foreign Key di Dalam Tabel rekening_bank dengan Tabel Lain
 
-Dari gambar di atas, dapat dilihat bahwa Foreign key id_nasabah merupakan primary key yang berasal dari kolom id_nasabah table nasabah_bank dari basis data erd_transaksi_di_bank, lalu, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank table perusahaan_bank dari basis data erd_transaksi_di_bank
+Dari gambar di atas, dapat dilihat bahwa Foreign Key id_nasabah merupakan primary key yang berasal dari kolom id_nasabah tabel nasabah_bank dari basis data erd_transaksi_di_bank, lalu, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank tabel perusahaan_bank dari basis data erd_transaksi_di_bank
 <br />
 <br />
 
-## TABLE ENTITAS PERUSAHAAN BANK
+## TABEL ENTITAS PERUSAHAAN BANK
 | Name Field | Type | Length | Keterangan |
 | --- | --- | --- | --- |
 | id_bank | int | 255 | Primary Key |
@@ -79,22 +87,16 @@ Dari gambar di atas, dapat dilihat bahwa Foreign key id_nasabah merupakan primar
 
 ## IMPLEMENTASI TABEL REKENING BANK
 
-![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank.png)
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel1_Perusahaan-Bank.png)
 
-Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah dibuat sebelumnya dengan keterangan kolom - kolom sebagai berikut :
-1. kolom id_rekening yang memiliki tipe data integer dengan panjang 255 yang merupakan sebuah primary key
-2. kolom id_nasabah yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_nasabah pada tabel ini dengan kolom id_nasabah yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel nasabah_bank
-3. kolom id_bank yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_bank pada tabel ini dengan kolom id_bank yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel perusahaan_bank
-4. kolom saldo merupakan sebuah kolom attribut yang memiliki tipe data decimal dengan panjang (19,4)
-5. kolom jenis_member merupakan sebuah kolom attribut yang memiliki tipe data enum serta memuat pilihan 'silver', 'gold', dan 'platinum'.
-
-![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank_Relasi.png)
-
-Dari gambar di atas, dapat dilihat bahwa Foreign key id_nasabah merupakan primary key yang berasal dari kolom id_nasabah table nasabah_bank dari basis data erd_transaksi_di_bank, lalu, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank table perusahaan_bank dari basis data erd_transaksi_di_bank
+Membuat tabel perusahaan_bank di phpMyAdmin sesuai dengan spesifikasi yang telah dibuat sebelumnya dengan keterangan kolom - kolom sebagai berikut :
+1. kolom id_bank yang memiliki tipe data integer dengan panjang 255 merupakan sebuah Primary Key
+2. kolom alamat_bank merupakan sebuah kolom attribut yang memiliki tipe data varchar dengan panjang 60
+3. kolom nama_pemilik merupakan sebuah kolom attribut yang memiliki tipe data varchar dengan panjang 55
 <br />
 <br />
 
-## TABLE TRANSAKSI NASABAH BANK DAN PERUSAHAAN BANK
+## TABEL TRANSAKSI NASABAH BANK DAN PERUSAHAAN BANK
 | Name Field | Type | Length | Keterangan |
 | --- | --- | --- | --- |
 | id_transaksi | int | 255 | Primary Key |
@@ -105,5 +107,22 @@ Dari gambar di atas, dapat dilihat bahwa Foreign key id_nasabah merupakan primar
 | jenis_transaksi | enum | | ('Pembayaran', 'Transfer')
 | jumlah_transaksi | decimal | 19,4 | |
 | keterangan | varchar | 25 | |
+
+
+## IMPLEMENTASI TABEL REKENING BANK
+
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel4_Transaksi.png)
+
+Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah dibuat sebelumnya dengan keterangan kolom - kolom sebagai berikut :
+1. kolom id_rekening yang memiliki tipe data integer dengan panjang 255 yang merupakan sebuah primary key
+2. kolom id_nasabah yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_nasabah pada tabel ini dengan kolom id_nasabah yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel nasabah_bank
+3. kolom id_bank yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_bank pada tabel ini dengan kolom id_bank yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel perusahaan_bank
+4. kolom saldo merupakan sebuah kolom attribut yang memiliki tipe data decimal dengan panjang (19,4)
+5. kolom jenis_member merupakan sebuah kolom attribut yang memiliki tipe data enum serta memuat pilihan 'silver', 'gold', dan 'platinum'.
+
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel4_Transaksi_Relasi.png)
+
+Dari gambar di atas, dapat dilihat bahwa Foreign key id_nasabah merupakan primary key yang berasal dari kolom id_nasabah tabel nasabah_bank dari basis data erd_transaksi_di_bank, lalu, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank tabel perusahaan_bank dari basis data erd_transaksi_di_bank
+
 <br />
 <br /> 
