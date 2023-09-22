@@ -53,6 +53,29 @@ Dari gambar di atas, dapat dilihat bahwa Foreign key id_bank merupakan primary k
 | saldo | decimal | 19,4 | |
 | jenis_member | enum | | ('silver', 'gold', 'platinum')
 
+## IMPLEMENTASI TABEL NASABAH BANK
+
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank.png)
+
+Membuat tabel nasabah_bank di phpMyAdmin sesuai dengan spesifikasi yang telah dibuat sebelumnya dengan keterangan kolom - kolom sebagai berikut :
+1. kolom id_rekening yang memiliki tipe data integer dengan panjang 255 yang merupakan sebuah primary key
+2. kolom id_nasabah yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_nasabah pada tabel ini dengan kolom id_nasabah yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel nasabah_bank
+3. kolom id_bank yang memiliki tipe data integer dengan panjang 255 dan merupakan sebuah Foreign key yang menghubungkan kolom id_bank pada tabel ini dengan kolom id_bank yang merupakan sebuah primary key dengan tipe data integer dengan panjang 255 pada tabel perusahaan_bank
+4. nik merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 16
+5. nama merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 55
+6. jenis_kelamin merupakan sebuah kolom attribut yang memuat pilihan 'Laki - Laki' dan 'Perempuan"
+7. alamat merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 60
+8. email merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 60
+9. nama_ibu merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 55
+10. no_handphone merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 16
+11. nama_ibu_dari_ibu merupakan sebuah kolom attribut dengan tipe data varchar dengan panjang 55
+
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank_Relasi.png)
+
+Dari gambar di atas, dapat dilihat bahwa Foreign key id_bank merupakan primary key yang berasal dari kolom id_bank table perusahaan_bank dari basis data erd_transaksi_di_bank
+<br />
+<br />
+
 ## TABLE ENTITAS PERUSAHAAN BANK
 | Name Field | Type | Length | Keterangan |
 | --- | --- | --- | --- |
