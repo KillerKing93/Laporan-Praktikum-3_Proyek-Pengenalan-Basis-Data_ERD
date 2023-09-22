@@ -53,7 +53,7 @@ Dari gambar di atas, dapat dilihat bahwa Foreign key id_bank merupakan primary k
 | saldo | decimal | 19,4 | |
 | jenis_member | enum | | ('silver', 'gold', 'platinum')
 
-## IMPLEMENTASI TABEL NASABAH BANK
+## IMPLEMENTASI TABEL REKENING BANK
 
 ![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/Gambar/Tabel3_Rekening-Bank.png)
 
