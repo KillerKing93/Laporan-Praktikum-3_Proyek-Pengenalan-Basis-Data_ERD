@@ -1,7 +1,7 @@
 # Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD
 ERD Transaksi sederhana antar bank
 
-![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/ERD%20Bank%20v2.drawio.png)
+![Gambarnya Ga Ada ya ? :V Mungkin kamu kurang beruntung !](https://github.com/KillerKing93/Laporan-Praktikum-3_Proyek-Pengenalan-Basis-Data_ERD/blob/main/ERD%20Bank%20v2.drawio_v3.png)
 <br />
 <br />
 # Tabel ERD masing - masing entitas.
